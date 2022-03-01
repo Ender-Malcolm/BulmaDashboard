@@ -23,7 +23,7 @@ export default {
     async mounted() {
 
         //Async-Await Based Way
-        const response = await fetch("https://api.openweathermap.org/data/2.5/weather?zip=16648,us&APIKEY&units=imperial")
+        const response = await fetch("https://api.openweathermap.org/data/2.5/weather?zip=16648,us&process.env.APIKEY&units=imperial")
         const data = await response.json()
         this.currentTemp = data.main.temp
         this.feelsLike = data.main.feels_like
