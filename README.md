@@ -1,3 +1,8 @@
+# Author's Note
+
+This weather station app is still work-in-progress, and as such is lacking in some functionality. The City Search box is incomplete, as is the About page, where I shall explain how and why I built this app.
+
+
 # BulmaDashboard
 
 This template should help get you started developing with Vue 3 in Vite.
